@@ -31,7 +31,7 @@ Script to train resnet model on ImageNet dataset with image resolution of 32x32 
 ## Dataset Creation Scripts
 The scripts listed below allow for the creation of datasets based on the ImageNet and CIFAR-10/CIFAR-100 datasets. The scripts require the original datsets to be available to allow for the creation of the altered datasets.
 
-### buildDataset.py
+### build_dataset.py
 Creates 200 class ImageNet dataset using helper scripts available in './utils'. A json file containing the 200 classes in Tiny-ImageNet-200 and a json file containing the classes in ImageNet must be available for this script to work. 
 
 ### augmentation_dataset_creator.py
